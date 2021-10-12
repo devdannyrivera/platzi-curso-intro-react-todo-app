@@ -1,0 +1,13 @@
+.TodosError {
+    width: calc(100% - 54px);
+    height: calc(100vh - 620px);
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.TodosError p {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+}

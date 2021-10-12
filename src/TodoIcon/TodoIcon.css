@@ -1,0 +1,33 @@
+.Icon-contianer {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+
+.Icon-contianer--check {
+    position: absolute;
+    left: 12px;
+}
+
+.Icon-contianer--delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+    transition: fill .15s;
+}
+
+.Icon-contianer:hover .Icon-contianer--check {
+    fill: #4caf50;
+}
+
+.Icon-contianer:hover .Icon-contianer--delete {
+    fill: red;
+}
