@@ -1,14 +1,14 @@
 import React from "react";
-import { AiOutlineCheck, AiOutlineDelete } from 'react-icons/ai';
+import { MdClose, MdCheck } from 'react-icons/md';
 import { IconContext } from "react-icons/lib";
 import './TodoIcon.css';
 
 const iconTypes = {
     "check": (
-        <AiOutlineCheck className="Icon-svg Icon-svg--check"/>
+        <MdCheck/>
     ),
     "delete": (
-        <AiOutlineDelete className="Icon-svg Icon-svg--delete"/>
+        <MdClose/>
     ),
 }
 
@@ -19,7 +19,10 @@ function TodoIcon ({type, color, onClick}) {
             onClick={onClick}
         >
             <IconContext.Provider
-                value={{color}}
+                value={{
+                    color,
+                    className: `Icon-svg Icon-svg--${type}`
+                }}
             >
                 {iconTypes[type]}
             </IconContext.Provider>

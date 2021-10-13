@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: #F2F4F5;
-  color: #1E1E1F;
+  background: rgb(2,0,36);
+  background: linear-gradient(152deg, rgba(2,0,36,1) 0%, rgba(126,125,172,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 

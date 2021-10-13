@@ -5,7 +5,7 @@ import { DeletedIcon } from "../TodoIcon/DeletedIcon";
 
 function TodoItem({ completed, text, onComplete, onDelete}) {
     return (
-        <li className="TodoItem">
+        <li className={`TodoItem ${completed && 'TodoItem--complete'}`}>
             <CompletedIcon 
                 completed={completed}
                 onComplete={onComplete} 

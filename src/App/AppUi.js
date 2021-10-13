@@ -28,7 +28,7 @@ function AppUI() {
             <TodoCounter />
             <TodoSearch />
             <TodoList>
-                {error && <TodosError error={"Este es un error"} />}
+                {error && <TodosError error={error} />}
                 {loading && <TodosLoading />}
                 {(!loading && !todos.length && !error) && <TodosEmpty />}
                 {todos

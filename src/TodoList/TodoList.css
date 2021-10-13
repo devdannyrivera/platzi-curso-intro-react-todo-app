@@ -3,3 +3,8 @@ ul {
     padding: 0 0 56px 0;
     list-style: none;
 }
+
+.TodoList {
+    margin: 0 25px;
+    width: calc(100% - 56px);
+}

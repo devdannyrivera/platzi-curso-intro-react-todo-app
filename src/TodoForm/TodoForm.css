@@ -1,7 +1,7 @@
 form {
     width: 90%;
     max-width: 300px;
-    background-color: #fff;
+    background: linear-gradient(152deg, rgba(0,212,255,1) 0%, rgb(0, 153, 255) 100%);
     padding: 33px 40px;
     display: flex;
     align-content: center;
@@ -61,8 +61,9 @@ textarea:focus {
 }
 
 .TodoForm-button--add {
-    background-color: #61DAFA;
+    background-color: rgba(2,0,36,1);
     box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    color: #FFF;
 }
 
 .TodoForm-button--cancel {
