@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/platzi-curso-intro-react-todo-app/static/css/main.dad85535.chunk.css",
-    "main.js": "/platzi-curso-intro-react-todo-app/static/js/main.c7f5a879.chunk.js",
-    "main.js.map": "/platzi-curso-intro-react-todo-app/static/js/main.c7f5a879.chunk.js.map",
+    "main.css": "/platzi-curso-intro-react-todo-app/static/css/main.a1b17d77.chunk.css",
+    "main.js": "/platzi-curso-intro-react-todo-app/static/js/main.e8b87dfe.chunk.js",
+    "main.js.map": "/platzi-curso-intro-react-todo-app/static/js/main.e8b87dfe.chunk.js.map",
     "runtime-main.js": "/platzi-curso-intro-react-todo-app/static/js/runtime-main.a6744592.js",
     "runtime-main.js.map": "/platzi-curso-intro-react-todo-app/static/js/runtime-main.a6744592.js.map",
-    "static/js/2.673c1b7f.chunk.js": "/platzi-curso-intro-react-todo-app/static/js/2.673c1b7f.chunk.js",
-    "static/js/2.673c1b7f.chunk.js.map": "/platzi-curso-intro-react-todo-app/static/js/2.673c1b7f.chunk.js.map",
+    "static/js/2.c804ff15.chunk.js": "/platzi-curso-intro-react-todo-app/static/js/2.c804ff15.chunk.js",
+    "static/js/2.c804ff15.chunk.js.map": "/platzi-curso-intro-react-todo-app/static/js/2.c804ff15.chunk.js.map",
     "index.html": "/platzi-curso-intro-react-todo-app/index.html",
-    "static/css/main.dad85535.chunk.css.map": "/platzi-curso-intro-react-todo-app/static/css/main.dad85535.chunk.css.map",
-    "static/js/2.673c1b7f.chunk.js.LICENSE.txt": "/platzi-curso-intro-react-todo-app/static/js/2.673c1b7f.chunk.js.LICENSE.txt"
+    "static/css/main.a1b17d77.chunk.css.map": "/platzi-curso-intro-react-todo-app/static/css/main.a1b17d77.chunk.css.map",
+    "static/js/2.c804ff15.chunk.js.LICENSE.txt": "/platzi-curso-intro-react-todo-app/static/js/2.c804ff15.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a6744592.js",
-    "static/js/2.673c1b7f.chunk.js",
-    "static/css/main.dad85535.chunk.css",
-    "static/js/main.c7f5a879.chunk.js"
+    "static/js/2.c804ff15.chunk.js",
+    "static/css/main.a1b17d77.chunk.css",
+    "static/js/main.e8b87dfe.chunk.js"
   ]
 }
